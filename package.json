@@ -9,7 +9,8 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "surge-deploy": "npm run build && surge ./build --domain kozodoi-club-hack.surge.sh"
+    "surge-deploy": "npm run build && surge ./build --domain kozodoi-club-hack.surge.sh",
+    "surge-self-deploy": "npm run build && surge ./build --domain codim-mimo.surge.sh"
   },
   "keywords": [],
   "author": "",
